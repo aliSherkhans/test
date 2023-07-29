@@ -1,9 +1,10 @@
-//Array Questions
-//Question 1
-//Create an array with three elements and print out the second element.
+### Array Questions
+##Question 1
+Create an array with three elements and print out the second element.
 
-// let array = [1,2,3];
-// console.log(array[1]);
+ ``` let array = [1,2,3];
+     console.log(array[1]);
+ ```
 
 // Question 2
 // Create an array with five elements and print out the length of the array.
