@@ -321,8 +321,9 @@ const arr1 = [1, 2, 3, 4];
 
 ##34. Write a function that takes an array of strings and sorts them by their length in ascending order.
 
- Example usage
+ Example usag
  let strings = ["apple", "banana", "cherry", "date"];
+ ```script
  function sortStringsByLength(strings){
     return  strings.sort((a,b)=> a.length - b.length)
       }
