@@ -1,7 +1,7 @@
 
 # Array Questions
 ## Question 1
-##Create an array with three elements and print out the second element.
+## Create an array with three elements and print out the second element.
 
 ```script 
 let array = [1,2,3];
@@ -21,7 +21,7 @@ console.log(array[1]);
 console.log(array[i])
       }
 ```
-##Question 4
+## Question 4
 ## Create an array with six elements and print out each element using a forEach loop.
  ```script
  let array = [1,2,3,4,5,6];
