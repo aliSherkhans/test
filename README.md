@@ -1,6 +1,6 @@
 
-#Array Questions
-##Question 1
+# Array Questions
+## Question 1
 ##Create an array with three elements and print out the second element.
 
 ```script 
