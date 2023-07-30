@@ -118,8 +118,8 @@ let array1 = [1,2,3];
 let newArray = array1.slice(0,3)
  console.log(newArray)
 ```
-##Question 16
-##Create an array with six elements and use the map method to double each element.
+## Question 16
+## Create an array with six elements and use the map method to double each element.
 ```script
  let array1 = [1,2,3,4,5,6];
 console.log(array1.map((value)=>{
