@@ -1,8 +1,9 @@
-### Array Questions
+# Array Questions
 ##Question 1
 Create an array with three elements and print out the second element.
 
- ``` let array = [1,2,3];
+ ```script
+ let array = [1,2,3];
      console.log(array[1]);
  ```
 
