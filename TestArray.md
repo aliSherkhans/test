@@ -319,7 +319,7 @@ const arr1 = [1, 2, 3, 4];
  console.log(arrofstring(["alisher","wecode","sorgar","ladnun","acadmey"]))
 ```
 
-##34. Write a function that takes an array of strings and sorts them by their length in ascending order.
+##35. Write a function that takes an array of strings and sorts them by their length in ascending order.
 
  Example usag
  let strings = ["apple", "banana", "cherry", "date"];
@@ -331,7 +331,7 @@ const arr1 = [1, 2, 3, 4];
 
  console.log(sortStringsByLength(strings)); // Output: ["date", "apple", "cherry", "banana"]
  ```
-## 35. Write a function that takes an array of numbers and returns the second highest number.
+## 36. Write a function that takes an array of numbers and returns the second highest number.
 ```script
  function getSecondHighestNumber(numbers) {
    const sortarr = numbers.sort((a,b)=>b-a);
@@ -340,7 +340,7 @@ const arr1 = [1, 2, 3, 4];
  console.log(getSecondHighestNumber([1,22,33,44,333,44,56,467,433,566,532,665]))
 ```
 
- ## 36. Write a function that takes an array of numbers and returns a new array with all the unique numbers.
+ ## 37. Write a function that takes an array of numbers and returns a new array with all the unique numbers.
 ```script
  function getUniqueNumbers(numbers) {
     return Array.from(new Set(numbers));
@@ -348,21 +348,21 @@ const arr1 = [1, 2, 3, 4];
    let numbers = [1, 2, 3, 2, 4, 3, 5];
    console.log(getUniqueNumbers(numbers)); // Output: [1, 2, 3, 4, 5]
 ```
-## 37. Write a function that takes an array of strings and returns a new array with only the strings that contain the letter "a".
+## 38. Write a function that takes an array of strings and returns a new array with only the strings that contain the letter "a".
 ```script
  function getincludeA(str){
     return str.filter((value)=>value.includes("a"))
  }
  console.log(getincludeA(["alisher","hallo","hi","acadmey","sameer"]))
 ```
-## 38. Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+## 39. Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
 ```script
    function sortNumbersAscending(numbers){
      return numbers.sort((a,b)=>a-b);
   }
    console.log(sortNumbersAscending([11,45,7,8,5,4,8,85]))
 ```
-## 39. Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
+## 40. Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
  Example usage
  let arr = ['hello', 'world'];
  console.log(flattenStrings(arr)); // Output: ['h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
