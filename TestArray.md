@@ -365,5 +365,6 @@ const arr1 = [1, 2, 3, 4];
 ## 40. Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
  Example usage
  let arr = ['hello', 'world'];
+ 
  console.log(flattenStrings(arr)); // Output: ['h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
  ```
